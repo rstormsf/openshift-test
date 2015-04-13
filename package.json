@@ -1,0 +1,28 @@
+{
+  "name": "openshift-test",
+  "version": "0.0.1",
+  "description": "Deploy nodejs to openshift",
+  "main": "dist/app.js",
+  "scripts": {
+    "start": "node dist/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rstormsf/openshift-test.git"
+  },
+  "author": "Roman Storm",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rstormsf/openshift-test/issues"
+  },
+  "homepage": "https://github.com/rstormsf/openshift-test",
+  "dependencies": {
+    "express": "^4.12.3",
+    "gulp": "^3.8.11",
+    "gulp-babel": "^5.1.0",
+    "jade": "^1.9.2"
+  },
+  "devDependencies": {
+    "gulp-babel": "^5.1.0"
+  }
+}
