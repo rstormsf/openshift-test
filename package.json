@@ -4,7 +4,7 @@
   "description": "Deploy nodejs to openshift",
   "main": "dist/app.js",
   "scripts": {
-    "prestart": "node_modules/gulp/bin/gulp.js",
+    "prestart": "gulp",
     "start": "node dist/app.js"
   },
   "repository": {
