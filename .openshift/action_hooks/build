@@ -4,6 +4,6 @@ OLD_HOME=$HOME
 cd $OPENSHIFT_REPO_DIR
 export HOME=$OPENSHIFT_REPO_DIR
 
-gulp
+node node_modules/gulp/bin/gulp.js
 
 export HOME=$OLD_HOME
